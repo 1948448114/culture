@@ -1,6 +1,11 @@
 /*.content {
 	overflow: hidden;
 }*/
+body {
+	font-family:"微软雅黑","Microsoft Yahei" !important;
+	background-color: rgba(238,238,238,0.5);
+}
+
 #my_header {
 	color: #ffffff;
 
@@ -11,9 +16,12 @@
 }
 #my_header .navbar {
 	/*opacity:0.9;*/
+	background-color: rgba(64,186,188,0);
+	color: #ffffff;
+}
+#my_header .navbar:hover {
 	background-color: rgba(64,186,188,0.2);
 	color: #ffffff;
-
 }
 #my_header li,#my_header ul {
 	margin-left: 20px;
