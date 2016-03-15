@@ -55,17 +55,7 @@ body {
 #wrapBox .section .title p {
 	margin-top: 30px;
 }
-#wrapBox .section .content {
-	background-color:rgba(221,221,221,0.2);
-	font-size: 20px;
-	color: #ffffff;
-	width: 400px;
-	height: 400px;
-	margin-left: 30%;
-	line-height: 50px;
-	float: left;
-	display: inline;
-}
+
 #wrapBox .section2 {
 	background-image: url("../image/section2.jpg");
 }

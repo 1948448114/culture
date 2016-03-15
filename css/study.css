@@ -1,37 +1,7 @@
-#my_header {
-	color: #ffffff;
-
-	/*margin-left: 15%;*/
-}
-#my_header a{
-	color: #ffffff;
-}
-#my_header .navbar {
-	/*opacity:0.9;*/
-	background-color: rgba(64,186,188,0.8);
-	color: #ffffff;
-}
-
-#my_header li,#my_header ul {
-	margin-left: 20px;
-}
-#my_header ul li a:hover,#my_header ul li a:focus,#my_header ul .active a {
-	background-color: rgba(51,204,204,1.0);
-}
-#my_header ul li:first-child {
-	width: 86px;
-	text-align: center;
-}
-
-
-
-
-
 h1,h2,h3 {
-	font-family:"Microsoft YaHei","微软雅黑","宋体";
+	font-family:"Microsoft YaHei","微软雅黑";
 }
 body {
-	font-family:"微软雅黑","Microsoft Yahei" !important;
 	background-color: rgba(238,238,238,0.5);
 }
 
@@ -101,35 +71,15 @@ body {
 	margin-top: 20px;
 }
 
-.main_content .grey_back {
-	background-color: rgba(119,119,119,0.5);
-	color: white;
-}
-.main_content .grey1_back {
-	background-color: rgba(102,102,102,0.5);
-	color: white;
-}
+
 .main_content .white_back {
 	background-color: rgba(255,255,255,1);
 }
-.main_content .green_back {
-	background-color: rgba(204,255,51,0.5);
-}
-.main_content .red_back {
-	background-color: rgba(255,102,51,0.5);
-}
-.main_content .yellow_back {
-	background-color: rgba(255,255,102,0.5);
-}
+
 .main_content .blue_back {
 	background-color: rgba(0,153,153,0.5);
 }
-.main_content .first_back {
-	background-color: rgba(51,255,255,0.5);
-}
-.main_content .second_back {
-	background-color: rgba(0,153,255,0.5);
-}
+
 .main_content .black_back {
 	background-color: rgba(17,17,17,0.5);
 }
