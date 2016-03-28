@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>东南大学文化治理研究所</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- 通过360 cdn引入bootstrap css-->
+      <link href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/ui/css/jquery.fullPage.css">
+      <link rel="stylesheet" type="text/css" href="/ui/css/index.css">
+
+      <!-- HTML5 Shim 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+      <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+      <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body class="content">
+      <div id="my_header">
+         <nav class="navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse"
+               data-target="#my-navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               
+               </button>
+               <a class="navbar-brand" href="./">东南大学文化治理研究所</a>
+            </div>
+            <div class="collapse navbar-collapse" id="my-navbar-collapse">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="/ui/index.html">首页</a></li>
+                  <li><a href="./news.html">新闻动态</a></li>
+                  <li><a href="./study.html">学术研究</a></li>
+                  <li><a href="./team.html">合作团队</a></li>
+                  <li><a href="./aboutUs.html">关于我们</a></li>
+                  <li><a href="./people.html">招贤纳士</a></li>
+               </ul>
+            </div>
+            
+         </nav>
+      </div>
+
+      <div id="wrapBox">
+         <div class="section section1">
+            <div class="title">
+               <p>概括</p>
+               <p>OverView</p>
+            </div>
+            <div class="content">
+               
+            </div>
+         </div>
+         <div class="section section2">
+            <div class="title">
+               <p>研究团队</p>
+               <p>Our Teams</p>
+            </div>
+            <div class="content">
+               
+            </div>
+         </div>
+         <div class="section section3">
+         </div>
+      </div>
+
+
+
+
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="http://libs.useso.com/js/jquery/2.0.0/jquery.min.js"></script>
+      <!-- 通过360 cdn引入bootstrap js -->
+      <script src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      <script src="/ui/js/jquery.fullPage.min.js"></script>
+      <script type="text/javascript">
+         $(function(){
+            $("#wrapBox").fullpage({
+                  navigation:"true",
+                  navigationColor:"#33CCCC",
+                  navigationPosition:"right"
+               });
+         })
+      </script>
+   </body>
+</html>

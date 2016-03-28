@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>管理员入口</title>
+<link type="text/css" rel="stylesheet" href="style/reset.css">
+<link type="text/css" rel="stylesheet" href="style/mainStyle.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="js/ie6Fixpng.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div class="headerBar">
+	<div class="logoBar red_logo">
+		<div class="comWidth">
+			<h1 class="welcome_title">东南大学</h1>
+			<h1 class="welcome_title">文化治理研究所</h1>
+			<h1 class="welcome_title_right">管理员登陆</h1>
+		</div>
+	</div>
+</div>
+
+<div class="regBox">
+	<div class="login_cont">
+	<form action="doLogin.php" method="post">
+		<ul class="login">
+			<li>
+				<span class="reg_item"><i>*</i>账户名：</span>
+				<div class="input_item"><input type="text" name="username" class="login_input user_icon"></div>
+			</li>
+			<li>
+				<span class="reg_item"><i>*</i>密码：</span>
+				<div class="input_item"><input type="password" name="password" class="login_input user_icon"></div>
+				</li>
+			<li>
+				<span class="reg_item"><i>*</i>验证码：</span>
+				<div class="verify_input_item"><input type="text" name="verify" class="login_input user_icon"></div>
+				<img calss="verify_item" src="getVerify.php" alt="验证码" onclick="this.src='getVerify.php'"/>
+			</li>
+			<li class="autoLogin">
+				<span class="reg_item">&nbsp;</span><input type="checkbox" name="autoFlag" id="t1" class="checked"><label for="t1">一周内自动登录</label>
+			</li>
+			<li>
+				<span class="reg_item">&nbsp;</span>
+				<input type="submit" value="" class="login_btn">
+			</li>
+		</ul>
+	</form>
+	</div>
+</div>
+
+<div class="hr_25"></div>
+<div class="footer">
+	
+</div>
+</body>
+</html>
