@@ -7,14 +7,24 @@ $(document).ready(function(){
 		item_num = data;
 		page_num = Math.ceil(item_num/10);
 		$(".pager").pager({ pagenumber: 1 , pagecount: page_num,buttonClickCallback: PageClick});
-	});
-	for(var i=0;i<10;i++){
+		if(item_num>=10){
+				for(var i=0;i<10;i++){
 	$.get("../admin/returnNews.php?action=news&page=1&item="+i,function(data){
 		var json = JSON.parse(data);
 		$("#news_content").append("<li><a href=../"+json.link+">"+json.title+
 			"</a><span class='news_time'>"+json.time+"</span></li>");
     	});
 	}
+		}
+		else{
+		for(var i=0;i<item_num;i++){
+	$.get("../admin/returnNews.php?action=news&page=1&item="+i,function(data){
+		var json = JSON.parse(data);
+		$("#news_content").append("<li><a href=../"+json.link+">"+json.title+
+			"</a><span class='news_time'>"+json.time+"</span></li>");
+    	});
+		}
+	});
 })
 
 	var PageClick = function(pageclickednumber) {
