@@ -39,7 +39,7 @@ function trans($bodycontent,$title,$author,$timestr){
       <!-- 通过360 cdn引入bootstrap css-->
       <link href='http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet'>
       <script src='http://libs.baidu.com/jquery/1.10.2/jquery.min.js'></script>
-      <link rel='stylesheet' type='text/css' href='/ui/css/news.css'>
+      <link rel='stylesheet' type='text/css' href='/culture/ui/css/header.css'>
       <title>东南大学文化治理研究所</title>
    </head>
    <body class='content' style='background-color: #f2f2f2'>
@@ -58,11 +58,11 @@ function trans($bodycontent,$title,$author,$timestr){
             <div class='collapse navbar-collapse' id='my-navbar-collapse'>
                <ul class='nav navbar-nav'>
                   <li><a href='/ui/index.html'>首页</a></li>
-                  <li class='active'><a href='/ui/news.html'>新闻动态</a></li>
-                  <li><a href='/ui/study.html'>学术研究</a></li>
-                  <li><a href='/ui/team.html'>合作团队</a></li>
-                  <li><a href='/ui/aboutUs.html'>关于我们</a></li>
-                  <li class='active'><a href='/ui/people.html'>招贤纳士</a></li>
+                  <li class='active'><a href='/culture/ui/news.html'>新闻动态</a></li>
+                  <li><a href='/culture/ui/study.html'>学术研究</a></li>
+                  <li><a href='/culture/ui/team.html'>合作团队</a></li>
+                  <li><a href='/culture/ui/aboutUs.html'>关于我们</a></li>
+                  <li><a href='/culture/ui/people.html'>招贤纳士</a></li>
                </ul>
             </div>
             
@@ -83,7 +83,7 @@ function trans($bodycontent,$title,$author,$timestr){
          <span> 
             &copy 2013-2016 东南大学文化治理研究所
         </span>
-       <script src='/ui/js/news_detail.js'></script>
+       <script src='/culture/ui/js/news_detail.js'></script>
 </body>
 </html>";
 	return $htmlcontent;

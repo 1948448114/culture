@@ -2,7 +2,6 @@
 //error_reporting(0);
 require_once '../include.php';
 $username=$_POST['username'];
-//$password=md5($_POST['password']);
 $password=md5($_POST['password']);
 $verify=$_POST['verify'];
 $verify1=$_SESSION['verify'];
@@ -11,7 +10,6 @@ if(strtolower($verify)==strtolower($verify1)){
 	$sql="select * from ".ADMINTABLE." where admin_username='".$username."' AND admin_password='".$password."'";
 	$row=checkAdmin($sql);
 	//var_dump($res);
-	//print_r($res);
 	if($row){
 		//如果选择了一周内自动登陆
 		if($autoFLag){
