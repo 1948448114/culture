@@ -62,7 +62,7 @@ function trans($bodycontent,$title,$author,$timestr){
                   <li><a href='/culture/ui/study.html'>学术研究</a></li>
                   <li><a href='/culture/ui/team.html'>合作团队</a></li>
                   <li><a href='/culture/ui/aboutUs.html'>关于我们</a></li>
-                  <li><a href='/culture/ui/people.html'>招贤纳士</a></li>
+                  <li class='active'><a href='/culture/ui/people.html'>招贤纳士</a></li>
                </ul>
             </div>
             

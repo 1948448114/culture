@@ -4,10 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- 通过360 cdn引入bootstrap css-->
-      <link href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-      <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
-      <script src="./js/jquery-1.8.3.min.js"></script>
-      <script src="./js/jquery.pager.js"></script>
+      <link href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">>
       <link rel="stylesheet" type="text/css" href="./css/header.css">
       <link rel="stylesheet" type="text/css" href="./css/news.css">
       <title>东南大学文化治理研究所</title>
@@ -74,6 +71,14 @@
             &copy 2013-2016 东南大学文化治理研究所
          </span>
       </div>
+      <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+      <script src="http://libs.useso.com/js/jquery/2.0.0/jquery.min.js"></script>
+      <!-- 通过360 cdn引入bootstrap js -->
+      <script src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+      <script src="./js/jquery.pager.js"></script>
       <script src="./js/news_load.js"></script>
+      <script>
+      $('body').scrollspy({ target: '#myScrollspy' })
+      </script>
    </body>
 </html>

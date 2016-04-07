@@ -12,9 +12,7 @@ function verifyImage($type=3,$length=4,$pixel=0,$line=0,$sess_name="verify"){
 	imagefilledrectangle($image, 1, 1, $width-2, $height-2, $white);
 	$chars=buildRandomString($type,$length);
 	$_SESSION[$sess_name]=$chars;
-	$fontfiles=array("SIMYOU.TTF");
-	//$fontfiles=array("simkai.TTF");
-	//$fontfiles=array("times.ttf");
+	$fontfiles=array("simkai.TTF","SIMYOU.TTF","simsunb.TTF");
 	for($i=0;$i<$length;$i++){
 		$size=mt_rand(16,20);
 		$angle=mt_rand(-10,10);

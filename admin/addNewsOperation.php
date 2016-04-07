@@ -57,7 +57,7 @@ function trans($bodycontent,$title,$author,$timestr){
             </div>
             <div class='collapse navbar-collapse' id='my-navbar-collapse'>
                <ul class='nav navbar-nav'>
-                  <li><a href='/ui/index.html'>首页</a></li>
+                  <li><a href='/culture/ui/index.html'>首页</a></li>
                   <li class='active'><a href='/culture/ui/news.html'>新闻动态</a></li>
                   <li><a href='/culture/ui/study.html'>学术研究</a></li>
                   <li><a href='/culture/ui/team.html'>合作团队</a></li>
